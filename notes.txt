@@ -1,0 +1,8 @@
+
+
+patch:
+    alpha:
+        at first, dmenu wouldn't compile after this patch
+        so i followed what a reddit user said:
+            You could try adding -lXrender to the LIBS definition in config.mk.  (juliarodp)
+        and it worked.
